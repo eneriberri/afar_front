@@ -16,10 +16,22 @@ body {
   border-radius: 5px;
   text-align: center;
   height: 165px;
+  padding: 2px;
+  position: relative;
+}
+
+.header-text {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  height: 115px;
+  margin-top: -55px;
+  width: 130px;
+  margin-left: -65px;
 }
 
 header {
-  background-image: url('img/texture.png');
+/*  background-image: url('img/texture.png');*/
   background-color: #9ed5de;
   border-radius: 5px;
   height: 115px;
@@ -53,12 +65,19 @@ aside {
   padding: 10px;
 }
 
-section h1 {
+.subtitle {
   text-transform: uppercase;
 }
 
 .main-img {
   border: 10px solid white;
+}
+
+.comment {
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+  width: 170px;
 }
 
 .thumb {
