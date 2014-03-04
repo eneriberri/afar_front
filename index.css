@@ -42,25 +42,27 @@ nav li {
 main {
   width: 380px; /* main img box width */
   float: left;
-  background-color: white;
   margin-right: 10px;
 }
 
 aside {
   background-color: #ddd9c6;
-  width: 245px;
+  width: 225px; /* content width - main width - padding */
   float: left;
   margin-left: 10px;
+  padding: 10px;
 }
 
 section h1 {
   text-transform: uppercase;
 }
 
-img:not(.avatar) {
+.main-img {
   border: 10px solid white;
 }
 
-/*.avatar {
-  float: left;
-}*/
+.thumb {
+  border: 8px solid white;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
