@@ -3,6 +3,7 @@ body {
   color: #3a220d;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
 }
 
 .content {
@@ -77,6 +78,14 @@ main {
   margin-right: 10px;
 }
 
+.main-img {
+  border: 10px solid white;
+}
+
+
+
+/*SIDEBAR STYLING*/
+
 aside {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ddd9c6;
@@ -89,10 +98,6 @@ aside {
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.main-img {
-  border: 10px solid white;
 }
 
 .bubble {
@@ -133,6 +138,10 @@ aside {
   z-index: 0;
   left: -8px;
   top: 10px;
+}
+
+.testimonial {
+  padding: 15px 0 5px 0;
 }
 
 .thumb {
