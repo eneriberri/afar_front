@@ -12,6 +12,50 @@ body {
   width: 645px;
 }
 
+
+
+
+/* HEADER STYLING */
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #64bdcb;
+  width: 12px;
+  height: 12px;
+  box-shadow: 0px 1px 0px white;
+}
+
+/* left group of circles */
+.left-top, .left-bottom {
+  top: 28%;
+  left: 16%;
+}
+
+.left-left {
+  top: 34%;
+  left: 13.5%;
+}
+
+.left-bottom {
+  top: 41%;
+}
+
+/* right group of circles */
+.right-top, .right-bottom {
+  top: 28%;
+  right: 17%;
+}
+
+.right-right {
+  top: 34%;
+  right: 14.5%;
+}
+
+.right-bottom {
+  top: 41%;
+}
+
 .title-area {
   text-transform: uppercase;
   background-color: #64bdcb;
@@ -72,10 +116,20 @@ li a {
   text-shadow: 0px 2px 0px rgba(162, 215, 224, 1);
 }
 
-main {
+
+/* MAIN CONTENT STYLING */
+
+main, .main-title {
   width: 380px; /* main img box width */
   float: left;
   margin-right: 10px;
+  font-family: Georgia, serif;
+  line-height: 150%;
+}
+
+.main-title {
+  font-size: 24px;
+  padding-top: 10px;
 }
 
 .main-img {
@@ -98,6 +152,8 @@ aside {
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .bubble {
@@ -141,13 +197,16 @@ aside {
 }
 
 .testimonial {
-  padding: 15px 0 5px 0;
+  padding: 10px 0 10px 0;
+}
+
+.thumbnails {
+  margin: 0 auto;
 }
 
 .thumb {
-  border: 8px solid white;
-  margin-right: 4px;
-  margin-bottom: 4px;
+  border: 7px solid white;
+  margin: 3px;
 }
 
 h1 {
