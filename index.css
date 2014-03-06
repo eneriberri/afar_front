@@ -1,7 +1,13 @@
+@font-face {
+	font-family: 'HelveticaNeueLTStd';
+	src: url('fonts/helveticaneueltstd-roman-webfont.eot'); /* IE9 */
+	src: url('fonts/helveticaneueltstd-roman-webfont.woff') format('woff');
+}
+
 body {
   background-color: #eae8dc;
   color: #3a220d;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+  font-family: HelveticaNeueLTStd, Helvetica, sans-serif; 
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
 }
@@ -11,8 +17,6 @@ body {
   margin-right:auto;
   width: 645px;
 }
-
-
 
 
 /* HEADER STYLING */
@@ -77,7 +81,7 @@ header {
   float: left;
   height: 50%;
   width: 100%;
-  margin-bottom: -35px; /* half of header-text height */
+  margin-bottom: -40px; /* half of header-text height */
 }
 
 .header-text, .large-header-text {
@@ -91,10 +95,10 @@ header {
 }
 
 .header-text {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 100;
   clear: both;
-  height: 70px;
+  height: 80px;
 }
 
 nav ul {
@@ -141,7 +145,6 @@ main, .main-title {
 /*SIDEBAR STYLING*/
 
 aside {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #ddd9c6;
   width: 225px; /* content width - main width - padding */
   float: left;
@@ -157,7 +160,7 @@ aside {
 }
 
 .bubble {
-  font-size: 11px;
+  font-size: 12px;
   position: relative;
   float: right;
   width: 65%;
