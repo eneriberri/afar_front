@@ -15,7 +15,7 @@ body {
 .content {
   margin-left:auto;
   margin-right:auto;
-  width: 645px;
+  width: 650px; /* 645px */
 }
 
 
@@ -101,9 +101,11 @@ header {
   height: 80px;
 }
 
+nav {
+  width: 650px;
+}
+
 nav ul {
-  height: 10px;
-  line-height: 10px;
   padding: 0;
   text-align: center;
 }
@@ -111,13 +113,13 @@ nav ul {
 nav li {
   list-style-type: none;
   display: inline-block;
-  width: 125px;
+  width: 126px;
 }
 
 li a {
   color: #33838f;
   text-decoration: none;
-  text-shadow: 0px 2px 0px rgba(162, 215, 224, 1);
+  text-shadow: 0px 1px 0px rgba(162, 215, 224, 1);
 }
 
 
@@ -126,9 +128,8 @@ li a {
 main, .main-title {
   width: 380px; /* main img box width */
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
   font-family: Georgia, serif;
-  line-height: 150%;
 }
 
 .main-title {
@@ -138,6 +139,11 @@ main, .main-title {
 
 .main-img {
   border: 10px solid white;
+  margin-bottom: 8px;
+}
+
+.main-text {
+  line-height: 145%;
 }
 
 
@@ -146,13 +152,13 @@ main, .main-title {
 
 aside {
   background-color: #ddd9c6;
-  width: 225px; /* content width - main width - padding */
+  width: 230px;
   float: left;
-  margin-left: 10px;
   padding: 10px;
 }
 
 .subtitle {
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: bold;
   display: inline-block;
@@ -163,7 +169,7 @@ aside {
   font-size: 12px;
   position: relative;
   float: right;
-  width: 65%;
+  width: 67%;
   height: 100%;
   padding: 10px;
   background: #FFFFFF;
@@ -200,7 +206,8 @@ aside {
 }
 
 .testimonial {
-  padding: 10px 0 10px 0;
+  clear: both;
+  padding: 10px 0 15px 0;
 }
 
 .thumbnails {
@@ -208,7 +215,7 @@ aside {
 }
 
 .thumb {
-  border: 7px solid white;
+  border: 8px solid white;
   margin: 3px;
 }
 
